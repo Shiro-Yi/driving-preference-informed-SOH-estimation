@@ -91,5 +91,14 @@ If you use this code or data, please cite this article in IEEE style.
 Code: MIT License
 Data: released for academic verification only, not for commercial use (see DATA_LICENSE.md)
 
+## Data
+All processed data is included in this repository (see `data/`).
+**Raw device data (D01–D05, ~200MB each) is NOT included.** Download from
+[Releases](https://github.com/Shiro-Yi/driving-preference-informed-SOH-estimation/releases/tag/v1.0):
+1. Go to the release page, download all 5 CSV files;
+2. Create a directory `data/raw/` in the project root;
+3. Place the downloaded files there.
+The experiment code expects raw data at `data/raw/D01_device_raw_data.csv`, etc.
+
 ## Contact
 Corresponding author: Yujie Wang (wangyujie@ustc.edu.cn)
