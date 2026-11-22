@@ -65,7 +65,7 @@ The outputs in 'results/test_output/' can be compared with the pre-computed file
 A CUDA GPU is required. Verifying one device takes well under a minute on a modern laptop with a CUDA GPU.
 
 ## Repository Structure
-'''
+'''text
 ├── data/
 │   ├── raw/                                               			# de-identified raw data of offered devices
 │   ├── features/
